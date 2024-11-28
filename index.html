@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="about-me">
+            <article>
+                <h1>Sobre Mi</h1>
+                <hr>
+                <h2>Mi nombre es Iván, soy de Rosario, Argentina. En la actualidad trabajo como administrativo
+                    pero quiero aprender JS para poder cambiar de trabajo y dedicarme a lo que me gusta</h2>
+            </article>
+        </section>
+
+        <section name="tecno">
+            <span class="subrayado"> Mis guitarristas favoritos </span>
+            <div class="logos">
+                <img class="html" src="/assets/slash.jpg" title="SLASH">
+                <img class="css" src="/assets/brian.jpg" title="BRIAN MAY">
+                <img class="js" src="/assets/perri.jpg" title="JOE PERRI">
+            </div>
+        </section>
+
+        <section name="activities">
+            <h3 class="coment">Mis Guitarras Favoritas</h3>
+            <div class="formulario">
+                <div class="texto">
+                    <input type="text" placeholder="Título" class="caja1" id="tituloInput">
+                </div>
+                <div class="descripcion">
+                    <textarea placeholder="Descripción" class="caja2" id="descripcionInput"></textarea>
+                </div>
+                <div class="btn-imagen">
+                    <input type="url" id="urlImagen" placeholder="Ingrese la URL de la imagen" class="imagen" id="urlImagen">
+                </div>
+                <div class="btn-mostrar">
+                    <button class="btn-cont">Mostrar Imagen</button>
+                </div>
+            </div>
+               <div id="contenedorImagenes" class="contenedor-imagenes"></div>
+        </section>
+    </div>
+    <script src="/scripts/models.js"></script>
+    <script src="/scripts/controlers.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
